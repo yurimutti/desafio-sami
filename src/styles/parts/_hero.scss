@@ -1,0 +1,29 @@
+//----------------------
+//HERO
+@import '../base/_variables.scss';
+
+.hero {
+    &-name {
+        color: $secondary;
+    }
+    &-image {
+        border-radius: $border-radius;
+    }
+    &-info {
+        border-radius: $border-radius;
+        padding: 16px;
+        background-color: lighten($secondary, 90%);
+        height: 100%;
+        &-title {
+            color: $secondary;
+            font-size: 14px;
+        }
+        &-list {
+            color: $secondary;
+            opacity: 0.8;
+        }
+        &-item {
+            margin-bottom: 8px;
+        }
+    }
+}

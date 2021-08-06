@@ -1,0 +1,54 @@
+//----------------------
+//IMPORTS
+@import '../base/_variables.scss';
+@import '../parts/_buttons.scss';
+
+//----------------------
+// SEARCH
+
+.search {
+    &-form {
+        transform: translateY(-30px);
+        margin: 0 auto;
+        width: 35%;
+        min-width: 300px;
+        display: flex;
+        position: relative;
+    }
+    &-input {
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 18px 20px;
+        color: $secondary;
+        border: 2px solid transparent;
+        background-image: none;
+        background-color: #fbfbfb;
+        box-shadow: none;
+        border-radius: $border-radius;
+        outline: none;
+        transition: 0.2s;
+        &:focus {
+            border: 2px solid $primary;
+        }
+    }
+    .last {
+        height: 100%;
+        padding: 18px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: $primary;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+        transition: all ease 0.3s;
+        &:hover {
+            background-color: darken($primary, 10%);
+        }
+    }
+    &-icon {
+        width: 18px;
+        height: 18px;
+    }
+}

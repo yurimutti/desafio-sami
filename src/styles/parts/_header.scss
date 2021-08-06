@@ -1,0 +1,28 @@
+//----------------------
+//HEADER
+
+.header {
+    text-align: center;
+    &-top,
+    &-bottom {
+        padding: 24px 0;
+    }
+    &-top {
+        background-color: $secondary;
+    }
+    &-bottom {
+        background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url('../../img/bg.jpg');
+        background-position: 100% 30%;
+        background-size: cover;
+    }
+    &-title {
+        padding-bottom: 8px;
+        @include md {
+            font-size: 16px;
+        }
+    }
+}

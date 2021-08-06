@@ -1,0 +1,17 @@
+//----------------------
+//IMPORTS
+
+//BASE
+@import 'styles/base/default.scss';
+@import 'styles/base/colors.scss';
+@import 'styles/base/type.scss';
+@import 'styles/base/breakpoints.scss';
+@import 'styles/base/mixins.scss';
+@import 'styles/base/variables.scss';
+
+//PARTS
+@import 'styles/parts/header.scss';
+@import 'styles/parts/search.scss';
+@import 'styles/parts/cards.scss';
+@import 'styles/parts/modal.scss';
+@import 'styles/parts/hero.scss';
