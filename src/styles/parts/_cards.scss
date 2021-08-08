@@ -1,6 +1,6 @@
 //----------------------
 //IMPORTS
-@import '../base/_variables.scss';
+@import '../base/variables.scss';
 
 //----------------------
 //CARDS
@@ -40,7 +40,7 @@
         transition: all ease 0.3s;
     }
     .hero-name {
-        color: #fff;
+        color: $white;
         position: absolute;
         left: 0;
         right: 0;
