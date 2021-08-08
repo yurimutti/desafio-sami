@@ -14,8 +14,8 @@ const App = () => {
         const fetchItems = async () => {
             const acessToken = '4388018917951892';
 
-            const response = await axios(
-                `https://superheroapi.com/api/${acessToken}/search/${query}`
+            const response = await axios.get(
+                `https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${acessToken}/search/${query}`
             );
 
             setItems(response.data.results);

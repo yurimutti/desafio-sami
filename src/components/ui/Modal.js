@@ -49,7 +49,6 @@ const Modal = ({ closeModal, item }) => {
                                         Aparência
                                     </h2>
                                     <ul className="hero-info-list">
-                                        {console.log(item)}
                                         <li className="hero-info-item">
                                             <strong>Cor dos olhos: </strong>
                                             <span>
