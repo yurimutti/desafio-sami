@@ -30,7 +30,6 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias.
 -   [ReactJS](https://reactjs.org/)
 -   [Axios](https://github.com/axios/axios)
 -   [swiperjs](https://swiperjs.com/react)
--   [react-router-dom](https://github.com/ReactTraining/react-router)
 -   [react-icons](https://react-icons.github.io/react-icons/)
 -   [VS Code][vc]
 
